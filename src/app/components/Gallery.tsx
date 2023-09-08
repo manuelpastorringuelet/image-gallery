@@ -1,6 +1,5 @@
 import fetchImages from "@/lib/fetchImages";
 import type { ImagesResults } from "@/models/Images";
-import Image from "next/image";
 import ImageContainer from "./ImageContainer";
 
 export default async function Gallery() {
